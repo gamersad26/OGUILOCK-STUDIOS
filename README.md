@@ -1,3 +1,5 @@
+<div style="background-image: linear-gradient(rgba(11, 19, 43, 0.85), rgba(11, 19, 43, 0.95)), url('AQUÍ_ENLACE_DE_TU_IMAGEN_DE_FONDO'); background-size: cover; background-position: center; padding: 40px; border-radius: 12px; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
 <div align="center">
 
 # 🚀 OGUILOCK STUDIOS
@@ -5,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-En%20Desarrollo-orange?style=for-the-badge&logo=git" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Platform">
+  <img src="https://img.shields.io/badge/Precio-Gratis-success?style=for-the-badge" alt="Price">
 </p>
 
 </div>
@@ -13,16 +15,28 @@
 ---
 
 ### 💡 Sobre el Proyecto
-Bienvenido a **OGUILOCK STUDIOS**. Este repositorio centraliza el código, herramientas y la gestión de nuestros proyectos de desarrollo, ingeniería y software para escritorio.
+Bienvenido a **OGUILOCK STUDIOS**. Este repositorio centraliza el código, herramientas y la gestión de nuestros proyectos de desarrollo, ingeniería y software para escritorio con un enfoque de alto rendimiento.
 
 ---
 
 ### 🖥️ Descarga de la Aplicación (PC / Windows)
-Obtén la versión más reciente de nuestras herramientas diseñadas exclusivamente para entornos de escritorio Windows. Haz clic en el botón de abajo para iniciar la descarga:
+Obtén la versión más reciente de nuestras herramientas diseñadas exclusivamente para entornos de escritorio Windows de forma **totalmente gratuita**. 
 
-<div align="center">
-  <a href="AQUÍ_PEGAS_EL_ENLACE_DE_DESCARGA">
-    <img src="https://img.shields.io/badge/Descargar_para-Windows_%28PC%29-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para PC" height="50">
+<div align="center" style="margin: 30px 0;">
+  <a href="AQUÍ_PEGAS_EL_ENLACE_DE_DESCARGA" style="
+    display: inline-block;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #0078D4, #00d2ff);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #00d2ff, 0 0 30px rgba(0, 210, 255, 0.6);
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  ">
+    ⚡ DESCARGAR PARA PC (WINDOWS)
   </a>
 </div>
 
@@ -54,4 +68,6 @@ Obtén la versión más reciente de nuestras herramientas diseñadas exclusivame
 
 <div align="center">
   <sub>Desarrollado con 💜 por Oguilock Studios</sub>
+</div>
+
 </div>

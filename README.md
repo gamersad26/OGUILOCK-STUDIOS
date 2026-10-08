@@ -1,4 +1,4 @@
-<div style="background-image: linear-gradient(rgba(11, 19, 43, 0.85), rgba(11, 19, 43, 0.95)), url('AQUÍ_ENLACE_DE_TU_IMAGEN_DE_FONDO'); background-size: cover; background-position: center; padding: 40px; border-radius: 12px; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<div style="background-image: linear-gradient(rgba(11, 19, 43, 0.88), rgba(11, 19, 43, 0.95)), url('https://raw.githubusercontent.com/gamersad26/OGUILOCK-STUDIOS/main/assets/background.png'); background-size: cover; background-position: center; padding: 40px; border-radius: 12px; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
 <div align="center">
 
@@ -25,18 +25,19 @@ Obtén la versión más reciente de nuestras herramientas diseñadas exclusivame
 <div align="center" style="margin: 30px 0;">
   <a href="AQUÍ_PEGAS_EL_ENLACE_DE_DESCARGA" style="
     display: inline-block;
-    padding: 14px 28px;
-    background: linear-gradient(135deg, #0078D4, #00d2ff);
+    padding: 14px 30px;
+    background: linear-gradient(135deg, #0056b3, #00d2ff);
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     border-radius: 30px;
-    box-shadow: 0 0 15px #00d2ff, 0 0 30px rgba(0, 210, 255, 0.6);
+    box-shadow: 0 0 20px #00d2ff, 0 0 40px rgba(0, 210, 255, 0.6);
     transition: all 0.3s ease;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 1px;
   ">
-    ⚡ DESCARGAR PARA PC (WINDOWS)
+    🖥️ DESCARGAR PARA PC (WINDOWS)
   </a>
 </div>
 

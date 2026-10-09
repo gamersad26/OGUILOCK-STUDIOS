@@ -1,2 +1,211 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGUILOCK STUDIOS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-color: #030406;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        /* CONTENEDOR MAESTRO: Centrado perfecto y adaptable a web y móviles */
+        .master-mobile-card {
+            width: 100%;
+            max-width: 650px;
+            margin: 0 auto;
+            background-image: url('backgroundoffout.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 24px;
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            gap: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Capa semitransparente para asegurar contraste */
+        .master-mobile-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 14, 20, 0.4);
+            z-index: 0;
+        }
+
+        /* Secciones internas que contienen las fotos */
+        .showcase-section {
+            position: relative;
+            width: 100%;
+            height: 68vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+
+        /* Foto 1 con difuminado radial */
+        .img-tech {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('background.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 80%);
+            mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 80%);
+            z-index: 1;
+        }
+
+        /* Foto 2 con difuminado radial */
+        .img-city {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('backgroundcity.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 80%);
+            mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 80%);
+            z-index: 1;
+        }
+
+        .caption {
+            position: absolute;
+            top: 42%;
+            transform: translateY(-50%);
+            text-align: center;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+            z-index: 3;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #b0c4de;
+        }
+
+        /* CONTENEDOR DE LOS BOTONES INFERIORES */
+        .action-buttons-container {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            gap: 12px;
+            z-index: 4;
+            width: 90%;
+            justify-content: center;
+        }
+
+        .action-btn {
+            flex: 1;
+            background: rgba(26, 30, 36, 0.85);
+            border: 1px solid #00d2ff;
+            color: #ffffff;
+            padding: 10px 12px;
+            border-radius: 12px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 15px rgba(0, 210, 255, 0.2);
+        }
+
+        .action-btn:hover {
+            background: rgba(0, 210, 255, 0.2);
+            box-shadow: 0 6px 20px rgba(0, 210, 255, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .action-btn h3 {
+            font-size: 0.85rem;
+            margin-bottom: 3px;
+            color: #00d2ff;
+            letter-spacing: 0.5px;
+        }
+
+        .action-btn span {
+            font-size: 0.7rem;
+            color: #b0c4de;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="master-mobile-card">
+
+        <!-- FOTO 1 + BOTONES DE STUDIO Y APLICACIONES ABAJO -->
+        <div class="showcase-section">
+            <div class="img-tech"></div>
+            <div class="caption">
+                <h1>OGUILOCK STUDIOS</h1>
+                <p>Innovación y Sistemas</p>
+            </div>
+
+            <!-- Botones de la primera sección -->
+            <div class="action-buttons-container">
+                <button class="action-btn" onclick="alert('Studio: ¡Aún en desarrollo!')">
+                    <h3>COMENCEMOS A TRABAJAR</h3>
+                    <span>Descarga el studio para empezar</span>
+                </button>
+                <button class="action-btn" onclick="alert('Apps Móvil/PC (Ambientes Personalizados): ¡Aún en desarrollo!')">
+                    <h3>APLICACIONES</h3>
+                    <span>Móvil / PC (Ambientes personalizados)</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- FOTO 2 + BOTONES DE UPDATES Y COMUNIDAD ABAJO -->
+        <div class="showcase-section">
+            <div class="img-city"></div>
+            <div class="caption">
+                <h1>INFRAESTRUCTURA</h1>
+                <p>Desarrollo tecnológico real</p>
+            </div>
+
+            <!-- Botones de la segunda sección -->
+            <div class="action-buttons-container">
+                <button class="action-btn" onclick="alert('Sección de Próximas Updates y Votaciones: ¡Aún en desarrollo!')">
+                    <h3>PROXIMAS UPDATES</h3>
+                    <span>Feedback y Votaciones</span>
+                </button>
+                <button class="action-btn" onclick="alert('Sección de Comunidad y Tutoriales de Trabajo: ¡Aún en desarrollo!')">
+                    <h3>COMUNIDAD</h3>
+                    <span>Tutoriales de Trabajo</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
